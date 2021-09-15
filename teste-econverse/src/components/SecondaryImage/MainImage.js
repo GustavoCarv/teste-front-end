@@ -1,6 +1,6 @@
 import { MainDiv, TextDiv } from "./styled";
 
-function MainImage() {
+function SecondaryImage() {
   return (
     <MainDiv>
       <TextDiv>
@@ -8,9 +8,13 @@ function MainImage() {
         <p>INSTRUMENTOS PROFISSIONAIS</p>
         <p> CONFIRA</p>
       </TextDiv>
-      <div></div>
+      <TextDiv>
+        <p>NOVOS PRODUTOS</p>
+        <p>INSTRUMENTOS PROFISSIONAIS</p>
+        <p> CONFIRA</p>
+      </TextDiv>
     </MainDiv>
   );
 }
 
-export default MainImage;
+export default SecondaryImage;

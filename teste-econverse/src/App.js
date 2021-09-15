@@ -3,6 +3,9 @@ import SearchBar from "./components/SearchBar/SearchBar";
 import styled from "styled-components";
 import Dropdown from "./components/Dropdown/Dropdown";
 import MainImage from "./components/MainImage/MainImage";
+import InstrumentsType from "./components/InstrumentsTypes/InstrumentsType";
+import SecondaryImage from "./components/SecondaryImage/MainImage";
+import Products from "./components/Products/Products";
 
 const Geral = styled.div`
   display: flex;
@@ -19,6 +22,9 @@ function App() {
       <SearchBar />
       <Dropdown />
       <MainImage />
+      <InstrumentsType />
+      <SecondaryImage />
+      <Products />
     </Geral>
   );
 }
