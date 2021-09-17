@@ -6,12 +6,15 @@ import MainImage from "./components/MainImage/MainImage";
 import InstrumentsType from "./components/InstrumentsTypes/InstrumentsType";
 import SecondaryImage from "./components/SecondaryImage/MainImage";
 import Products from "./components/Products/Products";
+import Brands from "./components/Brands/Brands";
+import AboutUs from "./components/AboutUs/AboutUs";
+import Contact from "./components/Contact/Contact";
 
 const Geral = styled.div`
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 3400px;
+  height: 5000px;
   position: relative;
 `;
 
@@ -25,6 +28,9 @@ function App() {
       <InstrumentsType />
       <SecondaryImage />
       <Products />
+      <Brands />
+      <AboutUs />
+      <Contact />
     </Geral>
   );
 }

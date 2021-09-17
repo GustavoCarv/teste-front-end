@@ -4,8 +4,11 @@ function MainImage() {
   return (
     <MainDiv>
       <TextDiv>
-        <p>NOVOS PRODUTOS</p>
-        <p>INSTRUMENTOS PROFISSIONAIS</p>
+        <h3>NOVOS PRODUTOS</h3>
+        <h1>
+          <strong>INSTRUMENTOS </strong>
+          PROFISSIONAIS
+        </h1>
         <p> CONFIRA</p>
       </TextDiv>
       <div></div>
