@@ -7,7 +7,7 @@ export const MainDiv = styled.div `
 
   display: flex;
   align-items: center;
-  background-color: #0303d150;
+  background-color: aliceblue;
 
 `;
 

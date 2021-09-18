@@ -12,9 +12,12 @@ function SecondaryImage() {
         <button> Confira </button>
       </TextDiv>
       <TextDiv>
-        <p>NOVOS PRODUTOS</p>
-        <p>INSTRUMENTOS PROFISSIONAIS</p>
-        <p> CONFIRA</p>
+        <h3>NOVIDADES</h3>
+        <h1>
+          <strong>INSTRUMENTOS</strong>
+        </h1>
+        <h1>PROFISSIONAIS</h1>
+        <button> Confira </button>
       </TextDiv>
     </MainDiv>
   );

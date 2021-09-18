@@ -6,7 +6,7 @@ function SearchBar() {
       <ContainterBar>
         <h1>Ninja Som</h1>
         <InputSearch placeholder="Busque Aqui..." />
-        <div>icone (11) 9999-9999</div>
+        <div> (11) 9999-9999</div>
         <div>
           <p> Olá, visitante</p>
           <p> Minha Conta</p>

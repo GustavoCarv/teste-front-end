@@ -8,7 +8,7 @@ import {
 function CommentsBox() {
   return (
     <BoxCommentInfo>
-      <p>seta</p>
+      <p>.</p>
       <BoxPersonalInfo>
         Foto
         <BoxNameAndProfession>
@@ -21,7 +21,7 @@ function CommentsBox() {
           Ipsum as their default model text, and a search for ‘lorem ipsum’{" "}
         </p>
       </BoxComment>
-      <p>seta</p>
+      <p>.</p>
     </BoxCommentInfo>
   );
 }

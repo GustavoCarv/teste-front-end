@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerGeneral = styled.div `
+export const ContainerGeneral = styled.main`
   min-height: 1348px;
   width: 1280px;
 
@@ -9,7 +9,7 @@ export const ContainerGeneral = styled.div `
   align-items: center;
 `;
 
-export const ContainerInfo = styled.div `
+export const ContainerInfo = styled.div`
   min-height: 900px;
   width: 1000px;
 
@@ -47,7 +47,7 @@ export const ContainerInfo = styled.div `
   }
 `;
 
-export const ContainerProducts = styled.div `
+export const ContainerProducts = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 

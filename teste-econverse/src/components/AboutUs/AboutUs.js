@@ -4,9 +4,15 @@ function AboutUs() {
   return (
     <ContainerGeneral>
       <MainContainer>
-        <div>
-          <p>setinha</p>
-          <p>setinha</p>
+        <div
+          style={{
+            display: "flex",
+            width: "100%",
+            justifyContent: "space-between",
+          }}
+        >
+          <p>.</p>
+          <p>.</p>
         </div>
         <MainInfo>
           <h1>SOBRE NÓS</h1>

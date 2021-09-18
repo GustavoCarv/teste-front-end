@@ -66,7 +66,7 @@ function Contact() {
             07.282.516/0001-15
           </p>
         </div>
-        <div>ícone ícone</div>
+        <div>.</div>
       </BottomInfo>
     </ContainerGeneral>
   );

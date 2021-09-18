@@ -14,8 +14,6 @@ export const CardContainer = styled.div `
     font-weight: bold;
     font-size: 14px;
     line-height: 100%;
-
-    /* identical to box height, or 14px */
     letter-spacing: 0.09em;
 
     color: #000000;

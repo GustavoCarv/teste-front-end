@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const BoxCommentInfo = styled.div`
+export const BoxCommentInfo = styled.div `
   position: absolute;
   width: 1002px;
   height: 175px;
@@ -15,7 +15,7 @@ export const BoxCommentInfo = styled.div`
   align-items: center;
 `;
 
-export const BoxComment = styled.div`
+export const BoxComment = styled.div `
   width: 542px;
   height: 76px;
   background: #ffffff;
@@ -35,11 +35,11 @@ export const BoxComment = styled.div`
   }
 `;
 
-export const BoxPersonalInfo = styled.div`
+export const BoxPersonalInfo = styled.div `
   display: flex;
 `;
 
-export const BoxNameAndProfession = styled.div`
+export const BoxNameAndProfession = styled.div `
   margin-left: 8px;
   display: flex;
   flex-direction: column;
@@ -59,9 +59,6 @@ export const BoxNameAndProfession = styled.div`
     font-weight: normal;
     font-size: 10px;
     line-height: 12px;
-
-    /* identical to box height */
-
     color: #041e50;
   }
 `;

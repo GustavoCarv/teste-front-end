@@ -5,7 +5,7 @@ export const MainDiv = styled.div `
   height: 386px;
 
   display: flex;
-  background-color: #0000ff67;
+  background-color: aliceblue;
 `;
 
 export const TextDiv = styled.div `
@@ -48,7 +48,6 @@ export const TextDiv = styled.div `
     font-weight: normal;
     font-size: 13px;
     line-height: 100%;
-    /* identical to box height, or 13px */
     letter-spacing: 0.1em;
   }
 `;

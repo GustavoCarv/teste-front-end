@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerGeneral = styled.div `
+export const ContainerGeneral = styled.aside `
   width: 1280px;
 
   display: flex;
@@ -61,7 +61,7 @@ export const CompanyInfo = styled.div `
     "atendimento ajuda seguranca newsletter";
 `;
 
-export const InstitutionalArea = styled.div `
+export const InstitutionalArea = styled.nav `
   grid-area: institucional;
 
   h2 {
@@ -72,7 +72,6 @@ export const InstitutionalArea = styled.div `
     font-size: 14px;
     line-height: 17px;
 
-    /* identical to box height */
 
     color: #ffffff;
   }
@@ -88,7 +87,7 @@ export const InstitutionalArea = styled.div `
   }
 `;
 
-export const AjudaArea = styled.div `
+export const AjudaArea = styled.nav `
   grid-area: ajuda;
 
   h2 {
@@ -98,9 +97,6 @@ export const AjudaArea = styled.div `
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-
-    /* identical to box height */
-
     color: #ffffff;
   }
   h4 {
@@ -115,7 +111,7 @@ export const AjudaArea = styled.div `
   }
 `;
 
-export const AtendimentoArea = styled.div `
+export const AtendimentoArea = styled.nav `
   grid-area: atendimento;
 
   h2 {
@@ -125,9 +121,6 @@ export const AtendimentoArea = styled.div `
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-
-    /* identical to box height */
-
     color: #ffffff;
   }
   h4 {
@@ -142,12 +135,12 @@ export const AtendimentoArea = styled.div `
   }
 `;
 
-export const PagamentoArea = styled.div `
+export const PagamentoArea = styled.nav `
   grid-area: pagamento;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "payment payment payment"; // OLHAR
+  grid-template-areas: "payment payment payment"; 
 
   h2 {
     margin-bottom: 20px;
@@ -157,8 +150,6 @@ export const PagamentoArea = styled.div `
     font-size: 14px;
     line-height: 17px;
     grid-area: payment;
-    /* identical to box height */
-
     color: #ffffff;
   }
   h4 {
@@ -173,12 +164,12 @@ export const PagamentoArea = styled.div `
   }
 `;
 
-export const SegurancaArea = styled.div `
+export const SegurancaArea = styled.nav `
   grid-area: seguranca;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "payment payment payment"; // OLHAR
+  grid-template-areas: "payment payment payment"; 
 
   h2 {
     margin-bottom: 20px;
@@ -188,8 +179,6 @@ export const SegurancaArea = styled.div `
     font-size: 14px;
     line-height: 17px;
     grid-area: payment;
-    /* identical to box height */
-
     color: #ffffff;
   }
   h4 {
@@ -206,7 +195,7 @@ export const SegurancaArea = styled.div `
 
 export const NewsletterArea = styled.div `
   grid-area: newsletter;
-  width: 276px;
+  width: 286px;
   height: 239px;
   background: #ffffff;
   border-radius: 6px;

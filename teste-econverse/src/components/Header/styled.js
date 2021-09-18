@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerHeader = styled.nav `
+export const ContainerHeader = styled.header`
   display: flex;
   position: absolute;
   width: 1281px;
@@ -13,7 +13,7 @@ export const ContainerHeader = styled.nav `
   color: #ffffff;
 `;
 
-export const ItemHeader = styled.div `
+export const ItemHeader = styled.div`
   display: flex;
   flex-direction: row;
   font-family: Lato;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Overlay = styled.div`
+export const Overlay = styled.div `
   background-color: white;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@ export const Overlay = styled.div`
   background-color: rgba(0, 0, 0, 0.7);
 `;
 
-export const Main = styled.div`
+export const Main = styled.div `
   width: 769px;
   height: 355px;
   display: flex;
@@ -33,11 +33,7 @@ export const Main = styled.div`
     font-weight: normal;
     font-size: 20px;
     line-height: 100%;
-
-    /* identical to box height, or 20px */
     letter-spacing: 0.05em;
-
-    /* Primária */
     color: #041e50;
   }
   h3 {
@@ -46,11 +42,7 @@ export const Main = styled.div`
     font-weight: 900;
     font-size: 20px;
     line-height: 100%;
-
-    /* identical to box height, or 20px */
     letter-spacing: 0.05em;
-
-    /* Primária */
     color: #041e50;
   }
   p {
@@ -59,8 +51,6 @@ export const Main = styled.div`
     font-weight: normal;
     font-size: 10px;
     line-height: 150.5%;
-
-    /* or 15px */
     letter-spacing: 0.05em;
 
     color: #222222;
@@ -71,8 +61,6 @@ export const Main = styled.div`
     font-weight: normal;
     font-size: 12px;
     line-height: 100%;
-
-    /* identical to box height, or 12px */
     letter-spacing: 0.05em;
 
     color: #041e50;
@@ -88,8 +76,6 @@ export const Main = styled.div`
     font-weight: bold;
     font-size: 11px;
     line-height: 100%;
-
-    /* identical to box height, or 11px */
     letter-spacing: 0.05em;
 
     color: #ffffff;
