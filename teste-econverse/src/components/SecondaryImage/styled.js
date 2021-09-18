@@ -3,14 +3,14 @@ import styled from "styled-components";
 export const MainDiv = styled.div `
   width: 1280px;
   height: 386px;
-  border: 1px solid black;
+
   display: flex;
   background-color: #0000ff67;
 `;
 
 export const TextDiv = styled.div `
   width: 50%;
-  border: 1px solid black;
+
   height: px;
   display: flex;
   flex-direction: column;

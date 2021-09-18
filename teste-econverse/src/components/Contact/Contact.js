@@ -1,3 +1,4 @@
+import CommentsBox from "../CommentsBox/CommentsBox";
 import {
   ContainerGeneral,
   MainContainer,
@@ -6,13 +7,17 @@ import {
   InstitutionalArea,
   AjudaArea,
   AtendimentoArea,
+  PagamentoArea,
+  SegurancaArea,
+  NewsletterArea,
+  BottomInfo,
 } from "./styled";
 
 function Contact() {
   return (
     <ContainerGeneral>
       <MainContainer>
-        oi
+        <CommentsBox />
         <CompanyContainer>
           <CompanyInfo>
             <InstitutionalArea>
@@ -32,9 +37,37 @@ function Contact() {
               <h4>PRAZOS DE ENTREGA</h4>
               <h4>TERMOS DE USO</h4>
             </AjudaArea>
+            <PagamentoArea>
+              <h2>FORMAS DE PAGAMENTO</h2>
+            </PagamentoArea>
+            <SegurancaArea>
+              <h2>SEGURANCA</h2>
+            </SegurancaArea>
+            <NewsletterArea>
+              <h1>
+                ASSINE NOSSO <strong>NEWSLETTER</strong>
+              </h1>
+              <h1>E RECEBA NOVIDADES E PROMOCÕES</h1>
+              <form>
+                <input placeholder="SEU NOME" />
+                <input placeholder="SEU EMAIL" />
+              </form>
+              <button>Enviar</button>
+            </NewsletterArea>
           </CompanyInfo>
         </CompanyContainer>
       </MainContainer>
+      <BottomInfo>
+        <div>
+          <p>
+            NINJA SOM COMÉRCIO DE ELETRÔNICOS LTDA - 2012 - 2019, todos os
+            direitos reservados. Rua Santa Ifigênia, 556 560/562/564 - Santa
+            Efigênia - CEP: 01.207-000 - São Paulo / SP - CNPJ
+            07.282.516/0001-15
+          </p>
+        </div>
+        <div>ícone ícone</div>
+      </BottomInfo>
     </ContainerGeneral>
   );
 }

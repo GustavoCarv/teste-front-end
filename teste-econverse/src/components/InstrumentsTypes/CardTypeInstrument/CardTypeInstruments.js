@@ -1,9 +1,10 @@
 import { FullCard } from "./styled";
 
-function CardTypeInstruments() {
+function CardTypeInstruments({ image, type }) {
   return (
     <div>
-      <FullCard />
+      <FullCard src={image} />
+      <h2>{type}</h2>
     </div>
   );
 }

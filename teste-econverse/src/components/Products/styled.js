@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerGeneral = styled.div `
   min-height: 1348px;
   width: 1280px;
-  border: 1px solid black;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@ export const ContainerGeneral = styled.div `
 export const ContainerInfo = styled.div `
   min-height: 900px;
   width: 1000px;
-  border: 1px solid black;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -50,7 +50,7 @@ export const ContainerInfo = styled.div `
 export const ContainerProducts = styled.div `
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  border: 1px solid black;
+
   width: 100%;
   min-height: 730px;
 `;

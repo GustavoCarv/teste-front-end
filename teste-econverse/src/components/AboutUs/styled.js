@@ -1,26 +1,26 @@
 import styled from "styled-components";
 
-export const ContainerGeneral = styled.div`
+export const ContainerGeneral = styled.div `
   width: 1280px;
-  border: 1px solid black;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
 `;
 
-export const MainContainer = styled.div`
+export const MainContainer = styled.div `
   margin-top: 100px;
   min-height: 300px;
   width: 1000px;
-  border: 1px solid black;
+ 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 `;
 
-export const MainInfo = styled.div`
+export const MainInfo = styled.div `
   display: flex;
   flex-direction: column;
   justify-content: space-around;

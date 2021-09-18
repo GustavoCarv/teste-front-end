@@ -9,12 +9,13 @@ import Products from "./components/Products/Products";
 import Brands from "./components/Brands/Brands";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Contact from "./components/Contact/Contact";
+import CommentsBox from "./components/CommentsBox/CommentsBox";
 
 const Geral = styled.div`
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 5000px;
+  height: fit-content;
   position: relative;
 `;
 
@@ -30,6 +31,7 @@ function App() {
       <Products />
       <Brands />
       <AboutUs />
+
       <Contact />
     </Geral>
   );

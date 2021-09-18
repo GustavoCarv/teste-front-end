@@ -5,6 +5,7 @@ import React, { useState, useEffect } from "react";
 
 function Products() {
   const [data, setData] = useState("");
+  const [tamanhoArray, setTamanhoArray] = useState(8);
 
   useEffect(() => {
     axios
@@ -17,21 +18,27 @@ function Products() {
       });
   }, []);
 
-  console.log(data);
-
   const arrayProducts =
     data &&
-    data.map((product) => {
-      return (
-        <CardProduct
-          key={product.productName}
-          productName={product.productName}
-          description={product.descriptionShort}
-          photo={product.photo}
-          price={product.price}
-        />
-      );
-    });
+    data
+      .filter((product, index) => {
+        return index < tamanhoArray;
+      })
+      .map((product) => {
+        return (
+          <CardProduct
+            key={product.productName}
+            productName={product.productName}
+            description={product.descriptionShort}
+            photo={product.photo}
+            price={product.price}
+          />
+        );
+      });
+
+  const mostrarMaisProdutos = () => {
+    setTamanhoArray(tamanhoArray + 4);
+  };
 
   return (
     <ContainerGeneral>
@@ -44,7 +51,7 @@ function Products() {
           readable{" "}
         </h2>
         <ContainerProducts>{arrayProducts}</ContainerProducts>
-        <button>Ver mais</button>
+        <button onClick={mostrarMaisProdutos}>Ver mais</button>
       </ContainerInfo>
     </ContainerGeneral>
   );

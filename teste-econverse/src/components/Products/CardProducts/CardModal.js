@@ -23,7 +23,13 @@ function CardModal({
       </div>
       <ModalInfo>
         <h4> {productName} </h4>
-        <h3>{price}</h3>
+        <h3>
+          {" "}
+          {(price / 100).toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL",
+          })}
+        </h3>
         <p>{description}</p>
         <h5>Veja mais detalhes do produto </h5>
         <button onClick={closeModal}> Adicionar ao Carrinho</button>

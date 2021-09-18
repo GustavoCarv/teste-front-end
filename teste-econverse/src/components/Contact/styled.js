@@ -1,27 +1,46 @@
 import styled from "styled-components";
 
-export const ContainerGeneral = styled.div`
+export const ContainerGeneral = styled.div `
   width: 1280px;
-  border: 1px solid black;
+
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow-y: hidden;
 `;
 
-export const MainContainer = styled.div`
+export const MainContainer = styled.div `
   margin-top: 100px;
-  min-height: 600px;
+  height: 550px;
   width: 100%;
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-end;
 `;
 
-export const CompanyContainer = styled.div`
+export const BottomInfo = styled.footer `
+  height: 70px;
+
+  width: 950px;
+  margin-right: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  p {
+    max-width: 503px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #010101;
+  }
+`;
+
+export const CompanyContainer = styled.div `
   height: 384px;
-  border: 1px solid black;
+
   background: #041e50;
   width: 100%;
   display: flex;
@@ -29,19 +48,20 @@ export const CompanyContainer = styled.div`
   align-items: center;
 `;
 
-export const CompanyInfo = styled.div`
+export const CompanyInfo = styled.div `
+  margin-top: 70px;
   height: 250px;
-  border: 1px solid black;
+
   width: 1000px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 250px;
+  grid-template-columns: 1fr 1fr 1fr 300px;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "institucional ajuda pagamento newsletter"
-    "atendimento ajuda segurança newsletter";
+    "atendimento ajuda seguranca newsletter";
 `;
 
-export const InstitutionalArea = styled.div`
+export const InstitutionalArea = styled.div `
   grid-area: institucional;
 
   h2 {
@@ -68,7 +88,7 @@ export const InstitutionalArea = styled.div`
   }
 `;
 
-export const AjudaArea = styled.div`
+export const AjudaArea = styled.div `
   grid-area: ajuda;
 
   h2 {
@@ -95,7 +115,7 @@ export const AjudaArea = styled.div`
   }
 `;
 
-export const AtendimentoArea = styled.div`
+export const AtendimentoArea = styled.div `
   grid-area: atendimento;
 
   h2 {
@@ -119,5 +139,109 @@ export const AtendimentoArea = styled.div`
     line-height: 14px;
 
     color: #ffffff;
+  }
+`;
+
+export const PagamentoArea = styled.div `
+  grid-area: pagamento;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "payment payment payment"; // OLHAR
+
+  h2 {
+    margin-bottom: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    grid-area: payment;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  h4 {
+    margin-bottom: 10px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #ffffff;
+  }
+`;
+
+export const SegurancaArea = styled.div `
+  grid-area: seguranca;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "payment payment payment"; // OLHAR
+
+  h2 {
+    margin-bottom: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    grid-area: payment;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  h4 {
+    margin-bottom: 10px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #ffffff;
+  }
+`;
+
+export const NewsletterArea = styled.div `
+  grid-area: newsletter;
+  width: 276px;
+  height: 239px;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 27px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  h1 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #041e50;
+  }
+  input {
+    border: none;
+    border-bottom: 0.6px solid #041e50;
+    width: 214px;
+    margin: 8px;
+    padding: 8px;
+  }
+  button {
+    width: 111px;
+    height: 35px;
+    border: 1px solid #041e50;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #041e50;
   }
 `;

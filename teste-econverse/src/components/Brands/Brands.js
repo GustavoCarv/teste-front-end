@@ -1,4 +1,8 @@
-import { MainContainer, ContainerGeneral } from "./styled";
+import { MainContainer, ContainerGeneral, BrandImgs } from "./styled";
+import boss from "./../../assets/boss.png";
+import akg from "./../../assets/akg.png";
+import roland from "./../../assets/roland.png";
+import shure from "./../../assets/shure.png";
 
 function Brands() {
   return (
@@ -13,7 +17,12 @@ function Brands() {
             the readable
           </h3>
         </div>
-        <div>Marcas</div>
+        <BrandImgs>
+          <img src={akg} />
+          <img src={roland} />
+          <img src={boss} />
+          <img src={shure} />
+        </BrandImgs>
       </MainContainer>
     </ContainerGeneral>
   );

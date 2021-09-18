@@ -1,4 +1,4 @@
-import { ContainterBar, InputSearch } from "./styled";
+import { ContainterBar, InputSearch, Cart } from "./styled";
 
 function SearchBar() {
   return (
@@ -12,10 +12,10 @@ function SearchBar() {
           <p> Minha Conta</p>
         </div>
       </ContainterBar>
-      {/*       <div>
-        <p>Seu carrinho</p>
-        <p>0 item(s)</p>
-      </div> */}
+      <Cart>
+        <h2>SEU CARRINHO </h2>
+        <h1>0 Items</h1>
+      </Cart>
     </div>
   );
 }

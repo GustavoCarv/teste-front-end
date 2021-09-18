@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
-export const FullCard = styled.div`
+export const FullCard = styled.img `
   height: 106px;
   width: 106px;
-  border: 1px solid black;
+ 
+  object-fit: contain;
 `;

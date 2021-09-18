@@ -1,17 +1,19 @@
 import styled from "styled-components";
 
-export const MainDiv = styled.div`
+
+export const MainDiv = styled.div `
   width: 1280px;
   height: 504px;
-  border: 1px solid black;
+
   display: flex;
   align-items: center;
   background-color: #0303d150;
+
 `;
 
-export const TextDiv = styled.div`
+export const TextDiv = styled.div `
   width: 50%;
-  border: 1px solid black;
+ 
   height: 60%;
   display: flex;
   flex-direction: column;

@@ -10,7 +10,12 @@ function CardProduct({ productName, description, photo, price }) {
       <img src={photo} />
       <h4> {productName} </h4>
       <p>{description}</p>
-      <h3>{price}</h3>
+      <h3>
+        {(price / 100).toLocaleString("pt-BR", {
+          style: "currency",
+          currency: "BRL",
+        })}
+      </h3>
       {showModal ? (
         <CardModal
           productName={productName}

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ContainerGeneral = styled.div `
   width: 1280px;
-  border: 1px solid black;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,10 +10,10 @@ export const ContainerGeneral = styled.div `
 `;
 
 export const MainContainer = styled.div `
-  margin-top: 100px;
-  height: 300px;
+  margin-top:50px;
+  height: 250px;
   width: 1000px;
-  border: 1px solid black;
+  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -40,3 +40,11 @@ export const MainContainer = styled.div `
     color: #a5a5a5;
   }
 `;
+
+export const BrandImgs = styled.div `
+  display: flex;
+  align-items: center;
+  img {
+    margin-left: 70px;
+  }
+`
